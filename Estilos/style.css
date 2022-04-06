@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+    background-color: white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 700px;
+    text-align: center;
+}
+
+table > thead {
+    background-color: #EAECF0;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+td.estado {
+    text-align: left;
+}
+
+td.estado > a {
+    text-decoration: none;
+}
+
+td.estado > a:hover {
+    text-decoration: underline;
+}
+
+td.mudanca {
+    color: green;
+}
+
+
