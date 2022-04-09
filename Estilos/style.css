@@ -29,7 +29,8 @@ header > p {
 
 table {
     border-collapse: collapse;
-    width: 700px;
+    background-color: #F8F9FA;
+    width: 800px;
     text-align: center;
 }
 
@@ -79,8 +80,13 @@ div.referencias {
     padding: 20px;
 }
 
+div.referencias > h2 {
+    padding-bottom: 20px;
+}
+
 div.referencias > ol {
     list-style-position: inside;
+    line-height: 1.5em;
 }
 
 footer {
