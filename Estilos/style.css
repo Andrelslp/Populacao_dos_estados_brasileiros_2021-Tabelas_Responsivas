@@ -10,12 +10,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*#8D66A5*/
-
 header {
-    background-color: #4B4B4C;
+    background-image: linear-gradient(to bottom, #4B4B4C, #6a6a6b);
     color: white;
     text-align: center;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.712);
 }
 
 header > h1 {
@@ -25,34 +24,44 @@ header > h1 {
 
 header > p {
     padding: 0px 0px 40px 0px;
+    font-size: 1em;
+}
+
+header > p > a {
+    text-decoration: none;
+    color: white;
+}
+
+header > p > a:hover {
+    text-decoration: underline;
 }
 
 table {
     border-collapse: collapse;
-    background-color: #F8F9FA;
-    width: 800px;
+    min-width: 800px;
     text-align: center;
+    margin: auto;
+    background-color: #eeeeee;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.089);
+}
+
+table > tbody > tr:nth-child(2n-1) {
+    background-color: #F8F9FA;
 }
 
 div.tabela {
     background-color: white;
     padding: 40px 0px;
-    display: flex;
-    flex: content;
-    justify-content: center;
+    overflow-x: auto;
 }
 
 table > caption {
     font-size: 2em;
-    padding: 10px;
+    padding: 10px 0px 20px 0px;
 }
 
 table > thead {
-    background-color: #EAECF0;
-}
-
-tbody > tr:hover {
-    background-color: lightgray;
+    background-color: #cfcfcf;
 }
 
 th, td {
@@ -76,17 +85,27 @@ td.mudanca {
     color: green;
 }
 
-div.referencias {
-    padding: 20px;
+div#redes_sociais {
+    background-color: #f2f2f3;
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 2em;
 }
 
-div.referencias > h2 {
-    padding-bottom: 20px;
+div#redes_sociais > p#redes_sociais_p1 {
+    padding-bottom: 15px;
 }
 
-div.referencias > ol {
-    list-style-position: inside;
-    line-height: 1.5em;
+div#redes_sociais > p > a > img {
+    padding-top: 0px;
+    max-height: 80px;
+    max-width: 80px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+div#redes_sociais > p > a > img:hover {
+    background-color: lightgray;
 }
 
 footer {

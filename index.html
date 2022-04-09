@@ -10,17 +10,18 @@
 
 <body>
     <header>
-        <h1>População dos estados brasileiros</h1>
-        <p>Esta é uma lista da população dos estados brasileiros segundo estimativas de 2021 do Instituto Brasileiro de Geografia e Estatística (IBGE).</p>
+        <h1>População dos Estados Brasileiros</h1>
+        <p>Esta é uma lista da população dos estados brasileiros segundo estimativas de 2021 do <a href="https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2021/estimativa_dou_2021.pdf" target="_blank"><strong>Instituto Brasileiro de Geografia e Estatística</strong></a> (IBGE).</p>
     </header>
 
     <main>
         <div class="tabela">
             <table>
                 <caption>
-                    População dos estados brasileiros
+                    População dos Estados Brasileiros
                 </caption>
-                <colgroup>
+                <!--
+                    <colgroup>
                     <col class="coluna1">
                     <col class="coluna2">
                     <col class="coluna3">
@@ -28,17 +29,18 @@
                     <col class="coluna5">
                     <col class="coluna6">
                 </colgroup>
+                -->
                 <thead>
                     <tr>
-                        <th rowspan="2">Posição</th>
-                        <th rowspan="2">Unidade federativa</th>
-                        <th colspan="2">População</th>
-                        <th rowspan="2">Mudança</th>
-                        <th rowspan="2">% da pop. total</th>
+                        <th rowspan="2" scope="col">Posição</th>
+                        <th rowspan="2" scope="col">Unidade federativa</th>
+                        <th colspan="2" scope="colgroup">População</th>
+                        <th rowspan="2" scope="col">Mudança</th>
+                        <th rowspan="2" scope="col">% da pop. total</th>
                     </tr>
                     <tr>
-                        <th>2010</th>
-                        <th>2021</th>
+                        <th scope="col">2010</th>
+                        <th scope="col">2021</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -58,7 +60,6 @@
                         <td class="mudanca">+9.26%</td>
                         <td>10,1%</td>
                     </tr>
-            
                     <tr>
                         <td>3</td>
                         <td class="estado"> <img src="Imagens/20px-Bandeira_do_estado_do_Rio_de_Janeiro.png" alt="bandeira do rio de janeiro"> <a href="https://pt.wikipedia.org/wiki/Rio_de_Janeiro_(estado)" target="_blank">Rio de Janeiro</a></td>
@@ -67,7 +68,6 @@
                         <td class="mudanca">+9.21%</td>
                         <td>8,2%</td>
                     </tr>
-            
                     <tr>
                         <td>4</td>
                         <td class="estado"> <img src="Imagens/Bandeira_da_Bahia.png" alt="bandeira da bahia"> <a href="https://pt.wikipedia.org/wiki/Bahia" target="_blank">Bahia</a></td>
@@ -263,7 +263,7 @@
                 </tbody>
                 <tfoot>
                     <tr>
-                        <th colspan="2">Total de habitantes</th>
+                        <th colspan="2" scope="row">Total de habitantes</th>
                         <td>190 732 694</td>
                         <td>213 317 639</td>
                         <td>x%</td>
@@ -272,21 +272,18 @@
             </table>
         </div>
 
-        <div class="referencias">
-            <h2>Referências</h2>
-            <ol>
-                <li>
-                    <a href="https://pt.wikipedia.org/wiki/Lista_de_unidades_federativas_do_Brasil_por_popula%C3%A7%C3%A3o#Lista">Wikipedia</a>. Consultado em  05 de Abril de 2022
-                </li>
-                <li>
-                    <a href="https://ftp.ibge.gov.br/Estimativas_de_Populacao/Estimativas_2021/estimativa_dou_2021.pdf">IBGE</a>. Consultado em 05 de Abril de 2022
-                </li>
-            </ol>
+        <div id="redes_sociais">
+            <p id="redes_sociais_p1">Minhas Redes Sociais</p>
+            <p>
+                <a href="#" target="_blank"><img src="Redes sociais/linkedin.png" alt="linkedin"></a>
+                <a href="https://github.com/Andrelslp" target="_blank"><img src="Redes sociais/github.png" alt="github"></a>
+                <a href="https://www.instagram.com/andreluis.slp/" target="_blank"><img src="Redes sociais/instagram.png" alt="intagram"></a>
+            </p>
         </div>
     </main>
 
     <footer>
-        <p>Site criado por <strong>André Luis de Souza Lopes</strong></p> <!-- Colocar imagens aqui -->
+        <p>Site criado por <strong>André Luis de Souza Lopes</strong></p>
     </footer>
 </body>
 </html>
